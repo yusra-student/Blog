@@ -14,9 +14,9 @@ const Home = () => {
           <h2>Transforming health, one bite at a time</h2>
 
           <p className="text-base sm:text-lg text-gray-800 mb-12 leading-relaxed font-light">
-          "Dive into a world of nourishing insights, practical tips, and inspiring stories. Stay updated with the latest in nutrition and explore a range of topics designed to fuel your body and elevate your well-being."
-          </p>
-
+        
+           Dive into a world of nourishing insights, practical tips, and inspiring stories. Stay updated with the latest in nutrition and explore a range of topics designed to fuel your body and elevate your well-being.
+           </p>
           <a
             href="/Blog"
             className="inline-block bg-black text-white px-6 py-3 sm:px-8 sm:py-4 rounded-lg text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-110 focus:ring-4 focus:ring-orange-300"
@@ -24,7 +24,6 @@ const Home = () => {
             View Latest Posts
           </a>
         </div>
-
         <div className="relative w-64 h-64 sm:w-72 sm:h-72 lg:w-96 lg:h-96">
           <Image
             src="/home1.jpeg"
